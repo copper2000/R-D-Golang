@@ -14,12 +14,12 @@ func main() {
 
 	// else if
 
-	color := "red"
+	color := "blue"
 
-	if color == "red" {
-		fmt.Println("color is red")
-	} else if color == "blue" {
+	if color == "blue" {
 		fmt.Println("color is blue")
+	} else if color == "red" {
+		fmt.Println("color is red")
 	} else {
 		fmt.Println("color is not blue or red")
 	}
@@ -27,10 +27,10 @@ func main() {
 	// Switch
 
 	switch color {
-	case "red":
-		fmt.Println("color is red")
 	case "blue":
 		fmt.Println("color is blue")
+	case "red":
+		fmt.Println("color is red")
 	default:
 		fmt.Println("color is not blue or red")
 	}
